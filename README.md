@@ -38,4 +38,4 @@ dt: Fecha del gasto.
 costs: Monto del gasto en marketing.
 
 ## Librerías Necesarias
-- pandas, numpy, matplotlib, seaborn, datetime, scipy
+- pandas, numpy, matplotlib, seaborn
