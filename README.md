@@ -11,18 +11,45 @@ El proyecto abarca los datos desde enero de 2017 hasta diciembre de 2018 y busca
 - Optimizar el gasto en marketing
 - Asesorar al equipo de marketing
 
-## Estructura del Proyecto
+## Dataset
+Este proyecto utiliza tres datasets clave, que contienen información de visitas al sitio web, pedidos realizados y gastos de marketing:
+
+La tabla `visits` (registros del servidor con datos sobre las visitas al sitio web):
+- **Uid**: identificador único del usuario;
+- **Device**: dispositivo del usuario;
+- **Start Ts**: fecha y hora de inicio de la sesión;
+- **End Ts**: fecha y hora de término de la sesión;
+- **Source Id**: identificador de la fuente de anuncios de la que proviene el usuario.
+
+La tabla `orders` (datos sobre pedidos):
+- **Uid**: identificador único del usuario que realiza un pedido;
+- **Buy Ts**: fecha y hora del pedido;
+- **Revenue**: ingresos de Y.Afisha de este pedido.
+
+La tabla `costs` (datos sobre gastos de marketing):
+- **source_id**: identificador de la fuente de anuncios
+- **dt**: fecha;
+- **costs**: gastos en esta fuente de anuncios en este día.
+
+## Herramientas utilizadas
+- **Python**: pandas, numpy, matplotlib, seaborn
+- **Jupyter Notebooks**: para análisis interactivo.
+
+## Pasos del análisis
 1. Preparación de los datos
 2. Análisis de Métricas Clave
 3. Visualización de Resultados
 4. Conclusiones y Recomendaciones
 
-## Dataset
-Este proyecto utiliza tres datasets clave, que contienen información de visitas al sitio web, pedidos realizados y gastos de marketing:
+## Conclusiones
+Se identifican tres fuentes 4, 5 y 9 como las más eficientes y rentables, pues muestran un bajo CAC y un alto ROMI, lo que significa que generan un retorno positivo sobre la inversión con un coste relativamente bajo por cliente adquirido. La recomendación se basa en la idea de que estas fuentes ofrecen el mejor equilibrio entre eficiencia y rentabilidad en la inversión en marketing.
 
-- **visits_log_us.csv**: Contiene datos de las visitas al sitio de Y.Afisha desde enero de 2017 hasta diciembre de 2018.
-- **orders_log_us.csv**: Registra los pedidos realizados en la plataforma durante el mismo periodo.
-- **costs_us.csv**: Incluye los gastos de marketing por fuente de adquisición.
+## Visualizaciones
+![image](https://github.com/user-attachments/assets/dc408c48-875d-4d29-8a12-1694293cec95)
+![image](https://github.com/user-attachments/assets/b80ba1a7-138d-49d5-a9d4-ac5c33cbeae6)
+![image](https://github.com/user-attachments/assets/01bd301f-c470-4f71-a1fe-f62469f2ddfa)
 
-## Librerías Necesarias
-- pandas, numpy, matplotlib, seaborn
+
+
+
+
