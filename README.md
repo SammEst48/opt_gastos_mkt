@@ -44,6 +44,8 @@ La tabla `costs` (datos sobre gastos de marketing):
 ## Conclusiones
 Se identifican tres fuentes 4, 5 y 9 como las más eficientes y rentables, pues muestran un bajo CAC y un alto ROMI, lo que significa que generan un retorno positivo sobre la inversión con un coste relativamente bajo por cliente adquirido. La recomendación se basa en la idea de que estas fuentes ofrecen el mejor equilibrio entre eficiencia y rentabilidad en la inversión en marketing.
 
+**Nota**: Este proyecto fue desarrollado como parte de mi formación en el bootcamp de Tripleten en el área de análisis de datos.
+
 ## Visualizaciones
 ![image](https://github.com/user-attachments/assets/dc408c48-875d-4d29-8a12-1694293cec95)
 ![image](https://github.com/user-attachments/assets/b80ba1a7-138d-49d5-a9d4-ac5c33cbeae6)
